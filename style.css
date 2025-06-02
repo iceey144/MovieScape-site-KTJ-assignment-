@@ -45,6 +45,7 @@ body {
   -webkit-background-clip: text; 
   background-clip: text;
   cursor: pointer;
+  padding-right: 15px;
   transition:  text-shadow 0.8s;
   color:transparent
 }
@@ -146,8 +147,8 @@ body {
 }
 
 .hero-image {
-  flex: 1;
-  min-width: 300px;
+  flex:1;
+  min-width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -429,15 +430,11 @@ body {
 }
 
 .footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2rem;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
 .footer-column {
+  color: #dcb404;
   flex: 1;
   min-width: 200px;
   text-align: left;
@@ -445,7 +442,12 @@ body {
 
 .footer-column h4 {
   margin-bottom: 1rem;
-  color: #f43f5e;
+  color: #dcb404;
+}
+
+.footer-column p {
+  margin-bottom: 1rem;
+  color: #ffffff;
 }
 
 .footer-links {
